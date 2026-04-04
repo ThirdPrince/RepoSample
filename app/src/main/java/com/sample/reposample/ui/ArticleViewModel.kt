@@ -21,7 +21,6 @@ class ArticleViewModel(private val getArticlesUseCase: GetArticlesUseCase) : Vie
 
     fun fetchArticles(page: Int) {
         viewModelScope.launch {
-            // 调用 UseCase 而不是直接调用 Repository
             getArticlesUseCase(page).collect { result ->
                 _uiState.value = result
             }
