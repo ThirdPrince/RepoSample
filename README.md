@@ -19,7 +19,7 @@
 - **网络**: [Retrofit 2](https://square.github.io/retrofit/) + OkHttp
 - **数据库**: [Room](https://developer.android.com/training/data-storage/room) (SQLite)
 - **UI**: [Jetpack Compose](https://developer.android.com/jetpack/compose)
-- **架构**: MVVM + Clean Architecture + UseCases
+- **架构**: MVI + Clean Architecture + UseCases
 
 ## 📂 项目结构
 
