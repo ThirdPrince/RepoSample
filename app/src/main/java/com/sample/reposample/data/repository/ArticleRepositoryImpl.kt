@@ -54,7 +54,7 @@ class ArticleRepositoryImpl(
             emit(Resource.Error(exception.localizedMessage ?: "Unknown error", localCache))
         }
 
-    }.flowOn(Dispatchers.IO)
+    }
 
     /**
      * Mapper: DTO 转换为数据库实体
